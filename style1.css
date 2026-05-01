@@ -1,24 +1,74 @@
+
+
+/*  BODY  */
 body {
-    font-family: Arial;
-    margin: 20px;
-    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
 }
 
+/* PAGE TITLE  */
 h1 {
-    color: darkblue;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 1px;
 }
 
+/*  MAIN CONTAINER  */
+.toto {
+    max-width: 780px;
+    margin: 35px auto;
+    
+    padding: 10px;
+    border-radius: 12px;
+    
+}
+
+/* PARAGRAPHS */
+p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 15px 0;
+    padding: 12px 16px;
+    background-color: #f9fbfc;
+    
+    
+}
+
+/* REFERENCES  */
 a {
-    margin-right: 10px;
+    display: block;
+    padding: 12px ;
+    margin: 11px 0;
     text-decoration: none;
-    color: green;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 670;
+    
+    
 }
 
+/* Hover effect */
 a:hover {
-    color: red;
+    background-color: #1f6fa5;
+    transform: scale(1.02);
 }
 
+/*  IMAGES  */
 img {
-    border: 2px solid black;
-    margin-top: 10px;
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+    width: 340px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
 }
+
